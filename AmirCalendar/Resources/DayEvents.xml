@@ -124,7 +124,7 @@
     <day month="2" day="28" isHoliday="1" event="شهادت حضرت امام حسن مجتبی علیه السلام" />
     <day month="2" day="30" isHoliday="1" event="شهادت حضرت امام رضا علیه السلام" />
     <day month="3" day="1" isHoliday="0" event="هجرت حضرت رسول اکرم صلی الله و اله از مکه به مدینه" />
-    <day month="3" day="8" isHoliday="0" event="شهادت حضرت امام حسن عسکری علیه السلام" />    
+    <day month="3" day="8" isHoliday="1" event="شهادت حضرت امام حسن عسکری علیه السلام" />
     <day month="3" day="12" isHoliday="0" event="ولادت حضرت رسول اکرم به روایت اهل سنت" />
     <day month="3" day="17" isHoliday="1" event="ولادت حضرت رسول اکرم و روز اخلاق و مهرورزی" />
     <day month="3" day="17" isHoliday="1" event="ولادت حضرت امام جعفر صادق علیه السلام" />
@@ -154,6 +154,7 @@
     <day month="9" day="21" isHoliday="1" event="شهادت حضرت علی علیه السلام" />
     <day month="9" day="22" isHoliday="0" event="شب قدر" />
     <day month="10" day="1" isHoliday="1" event="عید سعید فطر" />
+    <day month="10" day="2" isHoliday="1" event="به مناسبت عید سعید فطر" />
     <day month="10" day="25" isHoliday="1" event="شهادت حضرت امام جعفر صادق علیه السلام" />
     <day month="11" day="1" isHoliday="0" event="ولادت حضرت معصومه سلام الله علیها و روز دختران" />
     <day month="11" day="11" isHoliday="0" event="ولادت حضرت امام رضا علیه السلام" />
