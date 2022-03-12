@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<calendars>
+  <calendar name="Persian">
+    <day month="1" day="1" isHoliday="1" event="روز اول عید نوروز" />
+    <day month="1" day="2" isHoliday="1" event="روز دوم عید نوروز - آغاز عملیات فتح المبین" />
+    <day month="1" day="2" isHoliday="1" event="هجوم ماموران ستم شاهی به مدرسه فیضیه قم" />
+    <day month="1" day="3" isHoliday="1" event="روز سوم عید نوروز" />
+    <day month="1" day="4" isHoliday="1" event="روز چهارم عید نوروز" />
+    <day month="1" day="5" isHoliday="1" event="روز پنجم عید نوروز" />
+    <day month="1" day="6" isHoliday="1" event="روز ششم عید نوروز" />
+    <day month="1" day="7" isHoliday="1" event="روز هفتم عید نوروز" />
+    <day month="1" day="8" isHoliday="1" event="روز هشتم عید نوروز" />
+    <day month="1" day="9" isHoliday="1" event="روز نهم عید نوروز" />
+    <day month="1" day="10" isHoliday="1" event="روز دهم عید نوروز" />
+    <day month="1" day="11" isHoliday="1" event="روز یازدهم عید نوروز" />
+    <day month="1" day="12" isHoliday="1" event="روز دوازدهم عید نوروز" />
+    <day month="1" day="12" isHoliday="1" event="روز جمهوری اسلامی ایران" />
+    <day month="1" day="13" isHoliday="1" event="روز سیزدهم عید - روز طبیعت" />
+    <day month="1" day="20" isHoliday="0" event="روز ملی فناوری هسته ای" />
+    <day month="1" day="21" isHoliday="0" event="شهادت امیر سپهبد علی صیاد شیرازی" />
+    <day month="1" day="21" isHoliday="0" event="روز هنر انقلاب اسلامی - سالروز شهادت سید مرتضی آوینی" />
+    <day month="1" day="29" isHoliday="0" event="روز ارتش جمهوری اسلامی و نیروی زمینی" />
+    <day month="2" day="2" isHoliday="0" event="تاسیس سپاه پاسداران انقلاب اسلامی" />
+    <day month="2" day="2" isHoliday="0" event="سالروز اعلام انقلاب فرهنگی" />
+    <day month="2" day="5" isHoliday="0" event="شکست حمل نظامی آمریکا به ایران در طبس" />
+    <day month="2" day="9" isHoliday="0" event="روز شوراها" />
+    <day month="2" day="10" isHoliday="0" event="روز ملی خلیج فارس" />
+    <day month="2" day="11" isHoliday="0" event="تولد حضرت امام خمینی رهبر کبیر انقلاب اسلامی" />
+    <day month="2" day="12" isHoliday="0" event="شهادت استاد مرتضی مطهری - روز معلم" />
+    <day month="3" day="1" isHoliday="0" event="روز بهره وری و بهینه سازی مصرف" />
+    <day month="3" day="3" isHoliday="0" event="فتح خرمشهر در عملیات بیت المقدس" />
+    <day month="3" day="3" isHoliday="0" event="روز مقاومت، ایثار و پیروزی" />
+    <day month="3" day="4" isHoliday="0" event="روز مقاومت و پایداری - روز ذزفول" />
+    <day month="3" day="14" isHoliday="1" event="رحلت حضرت امام خمینی رهبر کبیر انقلاب اسلامی" />
+    <day month="3" day="14" isHoliday="1" event="انتخاب حضرت آیت الله خامنه ای به رهبری" />
+    <day month="3" day="15" isHoliday="1" event="قیام خونین 15 خرداد" />
+    <day month="3" day="26" isHoliday="0" event="شهادت سربازان دلیر اسلام: بخارایی، امانی، صفارهرندی و نیک نژاد" />
+    <day month="3" day="27" isHoliday="0" event="روز جهاد کشاورزی" />
+    <day month="3" day="29" isHoliday="0" event="درگذشت دکتر علی شریعتی" />
+    <day month="3" day="31" isHoliday="0" event="شهادت دکتر مصطفی چمران - روز بسیج اساتید" />
+    <day month="4" day="1" isHoliday="0" event="روز تبلیغ و اطلاع رسانی دینی - تاسیس سازمان تبلیغات اسلامی" />
+    <day month="4" day="1" isHoliday="0" event="روز اصناف" />
+    <day month="4" day="7" isHoliday="0" event="شهادت مظلومانه آیت الله دکتر بهشتی و 72 تن از یاران امام خمینی" />
+    <day month="4" day="7" isHoliday="0" event="روز قوه قضاییه" />
+    <day month="4" day="8" isHoliday="0" event="روز مبارزه با سلاح های شیمیایی و میکروبی" />
+    <day month="4" day="10" isHoliday="0" event="روز صنعت و معدن" />
+    <day month="4" day="11" isHoliday="0" event="شهادت آیت الله صدوقی چهارمین شهید محراب به دست منافقان" />
+    <day month="4" day="12" isHoliday="0" event="حمله ددمنشانه به هواپیمای مسافربری جمهوری اسلامی ایران توسط ناوگان آمریکا" />
+    <day month="4" day="14" isHoliday="0" event="روز قلم" />
+    <day month="4" day="21" isHoliday="0" event="روز عفاف و حجاب" />
+    <day month="4" day="25" isHoliday="0" event="روز بهزیستی و تامین اجتماعی" />
+    <day month="5" day="14" isHoliday="0" event="صدور فرمان مشروطیت - روز حقوق بشر اسلامی و کرامت انسانی" />
+    <day month="5" day="16" isHoliday="0" event="تشکیل جهاد دانشگامی" />
+    <day month="5" day="17" isHoliday="0" event="روز خبرنگار" />
+    <day month="5" day="26" isHoliday="0" event="آغاز بازگشت آزادگان به میهن اسلامی" />
+    <day month="5" day="28" isHoliday="0" event="کودتای آمریکا برای بازگرداندن شاه" />
+    <day month="6" day="1" isHoliday="0" event="روز پزشک" />
+    <day month="6" day="2" isHoliday="0" event="آغاز هفته دولت - شهادت سید علی اندرزگو" />
+    <day month="6" day="4" isHoliday="0" event="روز کارمند" />
+    <day month="6" day="5" isHoliday="0" event="روز بزرگداشت محمدبن زکریای رازی - روز داروسازی" />
+    <day month="6" day="8" isHoliday="0" event="روز مبارزه با تروریسم - شهادت شهیدان رجایی و باهنر" />
+    <day month="6" day="12" isHoliday="0" event="روز مبارزه با استعمار انگلیس" />
+    <day month="6" day="13" isHoliday="0" event="روز تعاون - روز بزرگداشت ابوریحان بیرونی" />
+    <day month="6" day="14" isHoliday="0" event="شهادت آیت الله قدوسی و سرتیپ وحید دستجردی" />
+    <day month="6" day="17" isHoliday="0" event="قیام 17 شهریور و کشتار جمعی از مردم به دست ماموران شاه" />
+    <day month="6" day="19" isHoliday="0" event="وفات آیت الله سید محمود طالقانی اولین امام جمعه تهران" />
+    <day month="6" day="20" isHoliday="0" event="شهادت دومین شهید محراب آیت الله مدنی به دست منافقان" />
+    <day month="6" day="27" isHoliday="0" event="روز شعر و ادب فارسی - روز بزرگداشت استاد سید محمد حسین شهریار" />
+    <day month="6" day="31" isHoliday="0" event="آغاز جنگ تحمیلی - آغاز هفته دفاع مقدس" />
+    <day month="7" day="5" isHoliday="0" event="شکست حصر آبادان در عملیات ثامن الائمه علیه السلام" />
+    <day month="7" day="7" isHoliday="0" event="روز آتش نشانی و ایمنی - شهادت سرداران اسلام: فلاحی، فکوری، نامجو، کلاهدوز و جهان آرا" />
+    <day month="7" day="8" isHoliday="0" event="روز بزرگداشت مولوی" />
+    <day month="7" day="9" isHoliday="0" event="روز همبستگی و همدردی با کودکان و نوجوانان فلسطینی" />
+    <day month="7" day="13" isHoliday="0" event="هجرت حضرت امام خمینی از عراق به پاریس - روز نیروی انتظامی" />
+    <day month="7" day="20" isHoliday="0" event="شهادت مظلومانه زائران خانه خدا به دست ماموران آل سعود" />
+    <day month="7" day="20" isHoliday="0" event="روز بزرگداشت حافظ - روز کاهش اثرات بلایای طبیعی" />
+    <day month="7" day="23" isHoliday="0" event="شهادت پنجمین شهید محراب، آیت الله اشرفی اصفهانی به دست منافقان" />
+    <day month="7" day="26" isHoliday="0" event="روز تربیت بدنی و ورزش" />
+    <day month="8" day="4" isHoliday="0" event="اعتراض و افشاگری حضرت امام خمینی علیه پذیرش کاپیتولاسیون" />
+    <day month="8" day="8" isHoliday="0" event="شهادت محمد حسین فهمیده - روز نوجوان و بسیج دانش آموزی" />
+    <day month="8" day="9" isHoliday="0" event="روز خانواده و تکریم بازنشستگان" />
+    <day month="8" day="10" isHoliday="0" event="شهادت آیت الله قاضی طباطبایی، اولین شهید محراب به دست منافقان" />
+    <day month="8" day="13" isHoliday="0" event="تسخیر لانه جاسوسی آمریکا به دست دانشجویان پیرو خط امام" />
+    <day month="8" day="13" isHoliday="0" event="روز مبارزه با استکبار جهانی - روز دانش آموز" />
+    <day month="8" day="24" isHoliday="0" event="روز تجلیل از اسرا و مفقودین - روز کتاب - روز بزرگداشت آیت الله سید محمد حسین طباطبایی" />
+    <day month="9" day="5" isHoliday="0" event="روز بسیج مستضعفان" />
+    <day month="9" day="7" isHoliday="0" event="روز نیروی دریایی" />
+    <day month="9" day="9" isHoliday="0" event="روز بزرگداشت شیخ مفید" />
+    <day month="9" day="10" isHoliday="0" event="شهادت آیت الله سید حسن مدرس و روز مجلس" />
+    <day month="9" day="12" isHoliday="0" event="تصویب قانون اساسی جمهوری اسلامی ایران" />
+    <day month="9" day="16" isHoliday="0" event="روز دانشجو" />
+    <day month="9" day="19" isHoliday="0" event="تشکیل شورای عالی انقلاب فرهنگی به فرمان حضرت امام خمینی" />
+    <day month="9" day="20" isHoliday="0" event="شهادت آیت الله دستغیب سومین شهید محراب به دست منافقان" />
+    <day month="9" day="25" isHoliday="0" event="روز پژوهش" />
+    <day month="9" day="27" isHoliday="0" event="شهادت آیت الله دکتر محمد مفتح - روز وحدت حوزه و دانشگاه" />
+    <day month="9" day="30" isHoliday="0" event="شب یلدا" />
+    <day month="10" day="7" isHoliday="0" event="سالروز تشکیل نهضت سواد آموزی به فرمان حضرت امام خمینی" />
+    <day month="10" day="19" isHoliday="0" event="قیام خونین مردم قم" />
+    <day month="10" day="20" isHoliday="0" event="شهادت میرزا تقی خان امیر کبیر" />
+    <day month="10" day="22" isHoliday="0" event="تشکیل شورای انقلاب به فرمان حضرت امام خمینی" />
+    <day month="10" day="26" isHoliday="0" event="فرار شاه معدوم" />
+    <day month="10" day="27" isHoliday="0" event="شهادت نواب صفوی، طهماسبی، برادران واحدی و ذوالقدر از فداییان اسلام" />
+    <day month="11" day="12" isHoliday="0" event="بازگشت حضرت امام خمینی و آغاز دهه مبارک فجر انقلاب اسلامی" />
+    <day month="11" day="14" isHoliday="0" event="روز فناوری فضایی" />
+    <day month="11" day="22" isHoliday="1" event="پیروزی انقلاب اسلامی ایران و سقوط نظام شاهنشاهی" />
+    <day month="11" day="29" isHoliday="0" event="قیام مردم تبریز به مناسبت چهلمین روز شهادت شهدای قم" />
+    <day month="12" day="5" isHoliday="0" event="روز بزرگداشت خواجه نصیرالدین طوسی - روز مهندسی" />
+    <day month="12" day="14" isHoliday="0" event="روز احسان و نیکوکاری" />
+    <day month="12" day="15" isHoliday="0" event="روز درختکاری" />
+    <day month="12" day="18" isHoliday="0" event="روز بزرگداشت سید جمال الدین اسد آبادی" />
+    <day month="12" day="22" isHoliday="0" event="روز بزرگداشت شهدا - تاسیس بنیاد شهید انقلاب اسلامی" />
+    <day month="12" day="25" isHoliday="0" event="روز بزرگداشت پروین اعتصامی" />
+    <day month="12" day="29" isHoliday="1" event="روز ملی شدن صنعت نفت ایران" />
+  </calendar>
+  <calendar name="Hijri">
+    <day month="1" day="1" isHoliday="0" event="آغاز سال جدید هجری قمری" />
+    <day month="1" day="9" isHoliday="1" event="تاسوعای حسینی" />
+    <day month="1" day="10" isHoliday="1" event="عاشورای حسینی" />
+    <day month="1" day="12" isHoliday="0" event="شهادت حضرت امام زین العابدین علیه السلام" />
+    <day month="1" day="25" isHoliday="0" event="شهادت حضرت امام زین العابدین علیه السلام به روایتی" />
+    <day month="2" day="7" isHoliday="0" event="ولادت حضرت امام موسی کاظم علیه السلام" />    
+    <day month="2" day="20" isHoliday="1" event="اربعین حسینی" />
+    <day month="2" day="28" isHoliday="1" event="رحلت حضرت رسول اکرم صلی الله علیه وآله" />
+    <day month="2" day="28" isHoliday="1" event="شهادت حضرت امام حسن مجتبی علیه السلام" />
+    <day month="2" day="30" isHoliday="1" event="شهادت حضرت امام رضا علیه السلام" />
+    <day month="3" day="1" isHoliday="0" event="هجرت حضرت رسول اکرم صلی الله و اله از مکه به مدینه" />
+    <day month="3" day="8" isHoliday="0" event="شهادت حضرت امام حسن عسکری علیه السلام" />    
+    <day month="3" day="12" isHoliday="0" event="ولادت حضرت رسول اکرم به روایت اهل سنت" />
+    <day month="3" day="17" isHoliday="1" event="ولادت حضرت رسول اکرم و روز اخلاق و مهرورزی" />
+    <day month="3" day="17" isHoliday="1" event="ولادت حضرت امام جعفر صادق علیه السلام" />
+    <day month="4" day="8" isHoliday="0" event="ولادت حضرت امام حسن عسکری علیه السلام" />
+    <day month="4" day="10" isHoliday="0" event="ولادت حضرت معصومه سلام الله علیها" />
+    <day month="5" day="5" isHoliday="0" event="ولادت حضرت زینب سلام الله علیها" />    
+    <day month="5" day="13" isHoliday="0" event="شهادت حضرت فاطمه زهرا سلام الله علیها به روایتی" />
+    <day month="6" day="3" isHoliday="1" event="شهادت حضرت فاطمه زهرا سلام الله علیها" />
+    <day month="6" day="20" isHoliday="0" event="ولادت حضرت فاطمه زهرا سلام الله علیها و روز زن" />
+    <day month="7" day="1" isHoliday="0" event="ولادت حضرت امام محمد باقر علیه السلام" />
+    <day month="7" day="3" isHoliday="0" event="شهادت حضرت امام علی النقی علیه السلام" />
+    <day month="7" day="10" isHoliday="0" event="ولادت حضرت امام محمد تقی علیه السلام" />
+    <day month="7" day="13" isHoliday="1" event="ولادت حضرت امام علی علیه السلام" />
+    <day month="7" day="15" isHoliday="0" event="وفات حضرت زینب سلام الله علیها" />    
+    <day month="7" day="25" isHoliday="0" event="شهادت حضرت امام موسی کاظم علیه السلام" />
+    <day month="7" day="27" isHoliday="1" event="مبعث حضرت رسول اکرم صلی الله علیه وآله" />
+    <day month="8" day="3" isHoliday="0" event="ولادت حضرت امام حسین علیه السلام و روز پاسدار" />
+    <day month="8" day="4" isHoliday="0" event="ولادت حضرت ابوالفضل علیه السلام و روز جانباز" />
+    <day month="8" day="5" isHoliday="0" event="ولادت حضرت امام زین العابدین علیه السلام" />
+    <day month="8" day="11" isHoliday="0" event="ولادت حضرت علی اکبر علیه السلام و روز جوان" />    
+    <day month="8" day="15" isHoliday="1" event="ولادت حضرت قائم عجل الله تعالی فرجه و روز جهانی مستضعفان" />
+    <day month="9" day="10" isHoliday="0" event="وفات حضرت خدیجه سلام الله علیها" />
+    <day month="9" day="15" isHoliday="0" event="ولادت حضرت امام حسن مجتبی علیه السلام و روز اکرام" />
+    <day month="9" day="18" isHoliday="0" event="شب قدر" />
+    <day month="9" day="19" isHoliday="0" event="ضربت خوردن حضرت علی علیه السلام" />
+    <day month="9" day="20" isHoliday="0" event="شب قدر" />
+    <day month="9" day="21" isHoliday="1" event="شهادت حضرت علی علیه السلام" />
+    <day month="9" day="22" isHoliday="0" event="شب قدر" />
+    <day month="10" day="1" isHoliday="1" event="عید سعید فطر" />
+    <day month="10" day="25" isHoliday="1" event="شهادت حضرت امام جعفر صادق علیه السلام" />
+    <day month="11" day="1" isHoliday="0" event="ولادت حضرت معصومه سلام الله علیها و روز دختران" />
+    <day month="11" day="11" isHoliday="0" event="ولادت حضرت امام رضا علیه السلام" />
+    <day month="11" day="30" isHoliday="0" event="شهادت حضرت امام محمد تقی علیه السلام" />
+    <day month="12" day="1" isHoliday="0" event="سالروز ازدواج حضرت علی علیه السلام و حضرت فاطمه سلام الله علیها" />
+    <day month="12" day="7" isHoliday="0" event="شهادت حضرت امام محمد باقر علیه السلام" />
+    <day month="12" day="10" isHoliday="1" event="عید سعید قربان" />
+    <day month="12" day="15" isHoliday="0" event="ولادت حضرت امام علی النقی علیه السلام" />
+    <day month="12" day="18" isHoliday="1" event="عید سعید غدیر خم" />
+  </calendar>
+</calendars>
