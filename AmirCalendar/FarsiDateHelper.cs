@@ -43,6 +43,7 @@ namespace AmirCalendar
     {
         internal static List<DayEvent> CalendarEvents;
         internal static Dictionary<int, int> CalendarHijriAdjustment;
+        internal static string tarikhKhasHoliday;
         private static readonly List<string> DayName;
         private static readonly List<string> MonthName;
 
@@ -50,6 +51,7 @@ namespace AmirCalendar
         {
             CalendarEvents = GetAllEvents();
             CalendarHijriAdjustment = GetHijriAdjustment();
+            tarikhKhasHoliday = GetTarikhKhasHoliday();
             DayName = new List<string> { "یکشنبه", "دوشنبه", "سه شنبه", "چهارشنبه", "پنجشنبه", "جمعه", "شنبه" };
             MonthName = new List<string> { "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند" };
         }
@@ -133,6 +135,8 @@ namespace AmirCalendar
         {
             if (!ValidateFarsiDate(farsiDate))
                 throw new Exception("Incorrect Persian Date.");
+            if (tarikhKhasHoliday == farsiDate) return true;
+
             var gDate = GetGregorianDate(farsiDate);
             if (gDate.DayOfWeek == DayOfWeek.Friday) return true;
             return CalendarEvents.Any(c => c.IsHoliday &&
@@ -274,6 +278,28 @@ namespace AmirCalendar
                     if (attrkey == null || attrvalue == null)
                         return null;
                     hijriAdjustment.Add(int.Parse(attrkey.Value), int.Parse(attrvalue.Value));
+                }
+                return hijriAdjustment;
+            }
+        }
+        private static string GetTarikhKhasHoliday()
+        {
+            if (!File.Exists(Application.StartupPath + "/HijriCalendarPatch.xml")) return null;
+            using (var xReader = new XmlTextReader(Application.StartupPath + "/HijriCalendarPatch.xml"))
+            {
+                var xDoc = XDocument.Load(xReader);
+                var root = xDoc.Elements("months").FirstOrDefault();
+                if (root == null) return null;
+                var monthElements = root.Elements("date").ToList();
+                if (monthElements.Count == 0) return null;
+                string hijriAdjustment = "";
+                foreach (var element in monthElements)
+                {
+                    var attrkey = element.Attribute("key");
+                    var attrvalue = element.Attribute("value");
+                    if (attrkey == null || attrvalue == null)
+                        return null;
+                    hijriAdjustment = attrkey.Value;
                 }
                 return hijriAdjustment;
             }

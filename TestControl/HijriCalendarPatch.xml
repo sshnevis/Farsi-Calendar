@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <months>
-  <month key="1" value="-1" />       <!--محرم-->
+  <month key="1" value="0" />       <!--محرم-->
   <month key="2" value="0" />        <!--صفر-->
   <month key="3" value="-1" />        <!--ربیع الاول-->
   <month key="4" value="0" />        <!--ربیع الثانی-->
   <month key="5" value="-1" />       <!--جمادی الاول-->
   <month key="6" value="-1" />       <!--جمادی الثانی-->
-  <month key="7" value="-2" />       <!--رجب-->
+  <month key="7" value="-1" />       <!--رجب-->
   <month key="8" value="-1" />       <!--شعبان-->
-  <month key="9" value="-2" />       <!--رمضان-->
-  <month key="10" value="-2" />      <!--شوال-->
+  <month key="9" value="-1" />       <!--رمضان-->
+  <month key="10" value="0" />      <!--شوال-->
   <month key="11" value="-2" />      <!--ذیقعده-->
-  <month key="12" value="-2" />      <!--ذالحجه-->
+  <month key="12" value="-1" />      <!--ذالحجه-->
+	
+	<date key="2022/09/27" value="2022/09/27"/>
 </months>
