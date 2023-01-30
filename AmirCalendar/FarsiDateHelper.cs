@@ -43,7 +43,7 @@ namespace AmirCalendar
     {
         internal static List<DayEvent> CalendarEvents;
         internal static Dictionary<int, int> CalendarHijriAdjustment;
-        internal static string tarikhKhasHoliday;
+        internal static List<string> tarikhKhasHoliday;
         private static readonly List<string> DayName;
         private static readonly List<string> MonthName;
 
@@ -135,7 +135,7 @@ namespace AmirCalendar
         {
             if (!ValidateFarsiDate(farsiDate))
                 throw new Exception("Incorrect Persian Date.");
-            if (tarikhKhasHoliday == farsiDate) return true;
+            if (tarikhKhasHoliday.Contains( farsiDate)) return true;
 
             var gDate = GetGregorianDate(farsiDate);
             if (gDate.DayOfWeek == DayOfWeek.Friday) return true;
@@ -282,7 +282,7 @@ namespace AmirCalendar
                 return hijriAdjustment;
             }
         }
-        private static string GetTarikhKhasHoliday()
+        private static List<string> GetTarikhKhasHoliday()
         {
             if (!File.Exists(Application.StartupPath + "/HijriCalendarPatch.xml")) return null;
             using (var xReader = new XmlTextReader(Application.StartupPath + "/HijriCalendarPatch.xml"))
@@ -290,16 +290,16 @@ namespace AmirCalendar
                 var xDoc = XDocument.Load(xReader);
                 var root = xDoc.Elements("months").FirstOrDefault();
                 if (root == null) return null;
-                var monthElements = root.Elements("date").ToList();
-                if (monthElements.Count == 0) return null;
-                string hijriAdjustment = "";
-                foreach (var element in monthElements)
+                var dateElements = root.Elements("date").ToList();
+                if (dateElements.Count == 0) return null;
+                var hijriAdjustment = new List<string>();
+                foreach (var element in dateElements)
                 {
                     var attrkey = element.Attribute("key");
                     var attrvalue = element.Attribute("value");
                     if (attrkey == null || attrvalue == null)
                         return null;
-                    hijriAdjustment = attrkey.Value;
+                    hijriAdjustment.Add(attrkey.Value);
                 }
                 return hijriAdjustment;
             }
