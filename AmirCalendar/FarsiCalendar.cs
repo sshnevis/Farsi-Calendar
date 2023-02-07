@@ -260,7 +260,9 @@ namespace AmirCalendar
                     var todayEvents = dayEvents.Where(c => c.Month == FarsiDateHelper.GetSectionOfDate(newDate, c.IsPersian, SectionOfDate.Month, (c.IsPersian || FarsiDateHelper.CalendarHijriAdjustment == null ? 0 : FarsiDateHelper.CalendarHijriAdjustment[c.Month])) &&
                                                            c.Day == FarsiDateHelper.GetSectionOfDate(newDate, c.IsPersian, SectionOfDate.Day, (c.IsPersian || FarsiDateHelper.CalendarHijriAdjustment == null ? 0 : FarsiDateHelper.CalendarHijriAdjustment[c.Month]))).ToList();
 
-                    bool isHolidayForce = (FarsiDateHelper.tarikhKhasHoliday.Contains(newDate.ToString("yyyy/MM/dd"))) ? true : false;
+                    bool isHolidayForce = (FarsiDateHelper.tarikhKhasHoliday != null) ? 
+                        (FarsiDateHelper.tarikhKhasHoliday.Contains(newDate.ToString("yyyy/MM/dd")) ? true : false) : false;
+
                     if (newDate.DayOfWeek == DayOfWeek.Friday || todayEvents.Any(c => c.IsHoliday) || isHolidayForce)
                         table.Rows[i].Cells[j].Style = new DataGridViewCellStyle { ForeColor = Color.Red };
                     if (todayEvents.Count > 0)
