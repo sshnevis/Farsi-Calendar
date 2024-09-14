@@ -1,5 +1,6 @@
-# Farsi-Calender
+# Farsi-Calendar
 C# Windows form beautiful persian calendar
+*خبر جدید: یک تقویم فارسی دیگر برای ویندوز فرم نوشتم که بسیار زیباتر است. اگر کسی مایل به توسعه و بهبودش بود به تلگرامم پیام بدهد.
 
 ![تلاش نت لوگو](https://talashnet.com/img/talash-logo-190-54.png)
 
