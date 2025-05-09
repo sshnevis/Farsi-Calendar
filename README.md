@@ -2,7 +2,7 @@
 C# Windows form beautiful persian calendar
 
 *خبر جدید: یک تقویم فارسی دیگر برای ویندوز فرم نوشتم که بسیار زیباتر است. اگر کسی مایل به توسعه و بهبودش بود به تلگرامم پیام بدهد.
-![اسکرین شات تقویم فارسی سی شارپ](Screenshot2.JPG)
+![اسکرین شات تقویم فارسی سی شارپ](ExirCalendar.PNG)
 
 ![تلاش نت لوگو](https://talashnet.com/img/talash-logo-190-54.png)
 
