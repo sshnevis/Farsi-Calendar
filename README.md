@@ -1,4 +1,4 @@
-# Farsi-Calendar
+# Farsi-Calendar C# .Net Framework 4 (Persian Calendar in .Net 4.8)
 C# Windows form beautiful persian calendar
 *خبر جدید: یک تقویم فارسی دیگر برای ویندوز فرم نوشتم که بسیار زیباتر است. اگر کسی مایل به توسعه و بهبودش بود به تلگرامم پیام بدهد.
 
